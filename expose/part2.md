@@ -30,4 +30,5 @@
     E. false; here, true is converted to the numeric value 1, and 1 == 2 is false.
     F. true; here, Boolean(true) returns the boolean value true. Thus, despite using the string equality operator, the result is we get true === true which is true.
 15. A regular == cannot differentiate between different types. So, false has a numeric value of 0 and after conversion false == 0 would be equivalent and return true. However, the strict equality operator === checks the equality without type conversion so 0 === false would return false because the types are different.
-
+16. It will return the array [2,4,6]. First, the empty newArr is loaded. Then, the for loop goes thru array and waits until it performs callback(array[i]), or doSomething(array[i]), which doubles each number, then appends it into newArr. Then neweArr is returned.
+17. It should print 1, then 4, then 3, and after a second, print 2.
